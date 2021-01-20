@@ -1,0 +1,19 @@
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.product-item{
+    margin: 20px 10px;
+}
+.bgimage{
+    border-radius: 5px;
+    padding: 200px 200px 300px 300px;
+    background-position: center;
+}
+
+
+
+/* .product-item{
+    width: 300px;
+} */
