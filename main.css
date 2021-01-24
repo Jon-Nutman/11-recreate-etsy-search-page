@@ -97,6 +97,22 @@ li{
   z-index: 1;
 }
 
+section{
+  margin: 10px;
+}
+
+.filters{
+  padding: 8px 8px 8px 35px;
+  background-color: white;
+  /* border: black; */
+  border: solid black 2px;
+  border-radius: 25px;
+}
+#slider{
+  z-index: 1;
+    position: relative;
+    left: 33px;
+}
 
 /* div .bottom-right {
   position: absolute;
