@@ -38,6 +38,7 @@ span {
     position: relative;
     top: 13px;
     left: 26px;
+  padding: 0px 0px 0px 10px;
 }
 .logo {
   font-weight: lighter;
@@ -69,6 +70,23 @@ li{
 
 #signIn{
   font-weight: bold;
+  position: relative;
+    left: 20px;
+}
+.rightNav{
+  display: flex;
+  align-items: center;
+} 
+#cart{
+  position:relative;
+  left: 50px;
+}
+
+#search{
+  position: relative;
+    left: 1000px;
+    top: 25px;
+  z-index: 1;
 }
 
 
@@ -100,6 +118,7 @@ div:hover .bottom-right{
 }
 
 .bgimage {
+  position: relative;
   border-radius: 5px;
   padding: 75px;
   background-position: center;
@@ -128,6 +147,20 @@ div:hover .bottom-right{
 .product-item {
   white-space: nowrap;
   overflow: hidden;
+}
+#heart{
+  padding: 0px;
+  margin: 0px;
+  display: none;
+  z-index: 1;
+  position: absolute;
+  padding: 0px 0px 0px 238px;
+  margin: -145px 0px 0px 0px;
+}
+
+.bgimage:hover + #heart{
+  display: block;
+
 }
 
 /* #nav{

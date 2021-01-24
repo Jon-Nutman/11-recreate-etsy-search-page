@@ -46,6 +46,7 @@ console.log(products)
 const productHtml = products.map((item) => {
     return `<div class='product-item'>
                 <div class="bgimage" style="background-image: url(${item.Images[0].url_fullxfull})"></div>
+                <span id="heart" class="fa fa-heart"></span>
                 <p class="title">${item.title}</p> 
                 <p class="shopName">${item.Shop.shop_name}</p>
                 <strong class="price">$${item.price}</strong>
