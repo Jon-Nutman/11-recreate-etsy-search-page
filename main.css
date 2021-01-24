@@ -20,10 +20,6 @@ nav .top {
   margin: 0 auto;
 }
 
-.product-item {
-  white-space: nowrap;
-  overflow: hidden;
-}
 
 span {
   margin: 10px;
@@ -54,16 +50,27 @@ div .bottom {
   padding: 20px;
   background: #fff;
   display: none;
-  top: 145px;
-  left: 145px;
-  right: 850px;
+  top: 103px;
+  width: 100%;
   background: #fff;
   border: 1px solid #ddd;
+  z-index: 1;
 }
 
-div .first:hover .bottom {
-  display: inline-block;
+.nav-item:hover + .bottom {
+  display: block;
+  
 }
+
+li{
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+#signIn{
+  font-weight: bold;
+}
+
 
 /* div .bottom-right {
   position: absolute;
@@ -122,8 +129,6 @@ div:hover .bottom-right{
   white-space: nowrap;
   overflow: hidden;
 }
-
-
 
 /* #nav{
   height: 35px;
