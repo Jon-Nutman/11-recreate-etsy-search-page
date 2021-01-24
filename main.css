@@ -128,8 +128,8 @@ div:hover .bottom-right{
 
 .bgimage {
   position: relative;
-  border-radius: 5px;
-  padding: 75px;
+  border-radius: 3px;
+  padding: 100px;
   background-position: center;
   background-size: cover;
 }
