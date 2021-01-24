@@ -49,6 +49,22 @@ const productHtml = products.map((item) => {
                 <span id="heart" class="fa fa-heart"></span>
                 <p class="title">${item.title}</p> 
                 <p class="shopName">${item.Shop.shop_name}</p>
+                <ul class="rating">
+                <li>
+                <span class="fa fa-star"></span>
+                </li>
+                <li>
+                <span class="fa fa-star"></span>
+                </li>
+                <li>
+                <span class="fa fa-star"></span>
+                </li>
+                <li>
+                <span class="fa fa-star-half-alt">(456)</span>
+                </li>
+                
+                </ul>
+                
                 <strong class="price">$${item.price}</strong>
             </div>
         `
