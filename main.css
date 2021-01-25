@@ -172,6 +172,7 @@ div:hover .bottom-right{
 .product-item {
   white-space: nowrap;
   overflow: hidden;
+  padding: 10px;
 }
 #heart{
   padding: 0px;
@@ -179,13 +180,17 @@ div:hover .bottom-right{
   display: none;
   z-index: 1;
   position: absolute;
-  padding: 0px 0px 0px 238px;
+  padding: 0px 0px 0px 215px;
   margin: -195px 0px 0px 0px;
 }
+.bgimage:hover{
+  -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.20); 
+box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.20);
+}
+
 
 .bgimage:hover + #heart{
   display: block;
-
 }
 .rating{
   display: flex;
